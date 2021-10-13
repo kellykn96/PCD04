@@ -1,0 +1,49 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* html, body {height:100%;} */
+
+.menu ul{
+    height: 8vh;
+    background-color: #45b3e6;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    
+
+}
+ 
+.menu li{
+    display: inline-block;
+    padding: 1vw;
+
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: beige;
+    font-family:sans-serif;
+
+}
+
+.redes {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: #f3f5f7;
+
+}
+.redes ul{
+    list-style: none;
+   
+}
+.redes ul li{
+    display: inline;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
